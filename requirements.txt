@@ -1,0 +1,10 @@
+pandas
+pytest
+pdfplumber
+pytesseract
+Pillow
+pdfminer.six
+langgraph
+black
+ruff
+mypy

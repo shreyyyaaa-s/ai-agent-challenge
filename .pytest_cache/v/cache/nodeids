@@ -1,0 +1,3 @@
+[
+  "tests/test_icici_parser.py::test_icici_parse_equals_expected"
+]
