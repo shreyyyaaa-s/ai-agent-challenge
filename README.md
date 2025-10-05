@@ -49,10 +49,3 @@ flowchart LR
   F -->|fail & attempts>=3| G[end]
 
 
-
-Rubric Overview Screenshot
-
-Here’s a visual summary of how this project satisfies the recruiter rubric (T1–T5).  
-Each task is mapped to specific agent behaviors and CLI outputs.
-
-
