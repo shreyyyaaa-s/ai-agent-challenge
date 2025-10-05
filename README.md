@@ -38,7 +38,7 @@ The agent is a small LangGraph workflow with nodes: plan → generate_parser →
 
 ```mermaid
 flowchart LR
-  A[CLI args] --> B[plan]
+  A[agent starts] --> B[plan]
   B --> C[generate_parser]
   C -->|exists| D[register parser]
   C -->|generate+clean+compile| D
@@ -47,6 +47,7 @@ flowchart LR
   F -->|pass| G[end]
   F -->|fail & attempts<3| E
   F -->|fail & attempts>=3| G[end]
+
 
 
 Rubric Overview Screenshot
